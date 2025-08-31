@@ -59,7 +59,7 @@ const Search = () => {
 
   useEffect(() => {
     // Fetch all podcasts on component mount
-    fetch("https://podlisten.onrender.com/dashboard")
+    fetch("https://pod-listen-ckkg.onrender.com/dashboard")
       .then((res) => res.json())
       .then((data) => {
         setAllPodcasts(data);

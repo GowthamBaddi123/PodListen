@@ -7,7 +7,7 @@ const PodcastDetails = () => {
   let { id } = useParams();
 
   useEffect(() => {
-    fetch(`https://podlisten.onrender.com/dashboard/podcast/${id}`)
+    fetch(`https://pod-listen-ckkg.onrender.com/dashboard/podcast/${id}`)
       .then((res) => res.json())
       .then((data) => setPodcast(data));
   }, []);

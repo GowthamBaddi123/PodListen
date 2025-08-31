@@ -10,7 +10,7 @@ const DisplayPodcasts = () => {
 
   useEffect(() => {
     fetch(
-      `https://podlisten.onrender.com/dashboard/search/category/${category}`
+      `https://pod-listen-ckkg.onrender.com/dashboard/search/category/${category}`
     )
       .then((res) => res.json())
       .then((data) => setData(data));

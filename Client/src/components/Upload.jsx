@@ -61,7 +61,7 @@ const Upload = () => {
     formData.append("category", category);
     formData.append("title", title);
   
-    fetch("https://podlisten.onrender.com/dashboard/upload", {
+    fetch("https://pod-listen-ckkg.onrender.com/dashboard/upload", {
       method: "POST",
       body: formData
     })
